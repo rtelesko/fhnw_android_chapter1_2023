@@ -1,0 +1,6 @@
+include ':MyFirstApp'
+include ':LotteryTwo'
+include ':LotteryOne'
+include ':LotteryImage'
+include ':app'
+rootProject.name = "Chapter1"

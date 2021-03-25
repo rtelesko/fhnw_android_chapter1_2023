@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <!-- Overview: Android image scale types: https://thoughtbot.com/blog/android-imageview-scaletype-a-visual-guide
+    centerCrop: Scale the image uniformly (maintain the image's aspect ratio) so that both dimensions (width and height)
+    of the image will be equal to or larger than the corresponding dimension of the view (minus padding).
+    -->
+
+    <ImageView
+        android:id="@+id/ivSimpleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lottery"/>
+
+</LinearLayout>
