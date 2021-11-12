@@ -1,1 +1,1 @@
-# fhnw_android_chapter1_2022
+# "My First App" taken from Head First Android Development von Dawn Griffiths (2017)
