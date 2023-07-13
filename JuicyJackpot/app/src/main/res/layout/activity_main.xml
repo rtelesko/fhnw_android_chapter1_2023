@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nickname_text"
+        android:text="Enter Nickname:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/nickname_edit_text"
+        android:hint="Nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/launch_button"
+        android:text="Launch Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/slot1"
+            android:src="@drawable/watermelon"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/slot2"
+            android:src="@drawable/watermelon"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/slot3"
+            android:src="@drawable/watermelon"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/balance_text_view"
+        android:text="Balance: $0"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:text="Stop Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/finish_button"
+        android:text="Finish Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
